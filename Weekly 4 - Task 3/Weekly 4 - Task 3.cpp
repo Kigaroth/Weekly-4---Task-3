@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-const int size = 2;
+const int size = 10;
 
 struct Phonebook {
     std::string firstname;
@@ -28,8 +28,6 @@ void getEntries() {
             entries[i] = entry;
     }
 }
-
-//Task 3 - Functions
 
 void print_phonebook(std::vector <Phonebook> entries);
 
